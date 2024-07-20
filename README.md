@@ -45,7 +45,9 @@ Install Scrips:
       sudo curl https://raw.githubusercontent.com/gotrekg/pihole-keepalived/main/Keepalived_secondary -o /etc/keepalived/keepalived.conf
 
 
-### We now need to edit the configuration on both servers.
+### We now need to edit the configuration on both servers.   
+
+    sudo nano /etc/keepalived/keepalived.conf
 
 
 |      Property        | Description                                                 | Example Server 1| Example Server 2|
