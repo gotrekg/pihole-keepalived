@@ -48,8 +48,8 @@ sudo curl https://raw.githubusercontent.com/gotrekg/pihole-keepalived/main/Keepa
 We now need to edit the configuration on both servers.
 
 
-| Property  | Description | Example Server 1|                   |
-|---------|---------|---------------------------------------------------|
+|      Property        | Description                                                 | Example Server 1| Example Server 2|
+|----------------------|-------------------------------------------------------------|-----------------|-----------------|
 | interface  | The LAN network interface name. Run ip list to view available interfaces if you are unsure.   | eth0            |         eth0   |
 | unicast_src_ip  | The IP address of the server you are currently configuring.   | 192.168.1.21             |      192.168.1.22            |
 | nicast_src_ip  | The IP address of the other server.   |         192.168.1.22         |       192.168.1.22        |                   
