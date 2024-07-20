@@ -2,7 +2,7 @@
 
 Dependencies:
 
-      apt update && apt install sqlite3 sudo git rsync ssh
+     sudo  apt update && sudo apt install sqlite3 sudo git rsync ssh
 
 
 
