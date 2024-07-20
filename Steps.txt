@@ -37,11 +37,11 @@ sudo chmod +x /etc/scripts/chk_ftl
 
 Primary 
 
-sudo curl https://pastebin.com/raw/nsBnkShi -o /etc/keepalived/keepalived.conf
+sudo curl https://raw.githubusercontent.com/gotrekg/pihole-keepalived/main/keepalived_primary -o /etc/keepalived/keepalived.conf
 
 Secondary 
 
-sudo curl https://pastebin.com/raw/nsBnkShi -o /etc/keepalived/keepalived.conf
+sudo curl https://raw.githubusercontent.com/gotrekg/pihole-keepalived/main/Keepalived_secondary -o /etc/keepalived/keepalived.conf
 
 
 We now need to edit the configuration on both servers. On each server, set the following properties:
