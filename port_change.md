@@ -3,12 +3,7 @@
 Create new file:
 
       sudo nano /etc/lighttpd/conf-enabled/20-custom-port.conf
-
-
-
 Paste this values:
-
-
 
       server.port := 8080
       $HTTP["url"] !~ "^/admin" {
