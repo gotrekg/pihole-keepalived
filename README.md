@@ -62,5 +62,5 @@ Install Scrips:
 
 We are now ready to start and enable keepalived. On both servers, run:
 
-      systemctl enable --now keepalived.service
-      systemctl status keepalived.service
+      sudo systemctl enable --now keepalived.service
+      sudo systemctl status keepalived.service
