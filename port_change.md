@@ -10,4 +10,7 @@ Paste this values:
       url.redirect = (".*" => "/admin")
 
 
+Restart lighttpd service:
+
+            sudo systemctl restart lighttpd.service
       
