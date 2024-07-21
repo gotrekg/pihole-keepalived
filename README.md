@@ -64,3 +64,7 @@ We are now ready to start and enable keepalived. On both servers, run:
 
       sudo systemctl enable --now keepalived.service
       sudo systemctl status keepalived.service
+
+For iphones you need to edit /etc/pihole/pihole-FTL.conf
+
+    BLOCK_ICLOUD_PR=false
