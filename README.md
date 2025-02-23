@@ -54,7 +54,7 @@ Install Scrips:
 |----------------------|-------------------------------------------------------------|-----------------|-----------------|
 | interface  | The LAN network interface name. Run ip list to view available interfaces if you are unsure.   | eth0            |         eth0   |
 | unicast_src_ip  | The IP address of the server you are currently configuring.   | 192.168.1.21             |      192.168.1.22            |
-| nicast_src_ip  | The IP address of the other server.   |         192.168.1.22         |       192.168.1.22        |                   
+| nicast_src_ip  | The IP address of the other server.   |         192.168.1.22         |       192.168.1.21        |                   
 | virtual_ipaddress    | The virtual IP address shared between the 2 servers, provided in CIDR notation. This must be the same on both servers.   |     192.168.1.20/24     |        192.168.1.20/24        |
 | auth_pass  | A shared password (max 8 characters). This must be the same on both servers   |       P@$$w05d       |        P@$$w05d       |
 
